@@ -1,0 +1,7 @@
+1) Instrument : saxophone
+2) Instrument : violon
+3) Instrument : guitare
+4) Olivier est un saxophoniste . Il joue morceau 'Vive le vent...'
+5) Jean-Marc est un saxophoniste . Il utilise un saxophone différent de celui d'Olivier
+6) Caroline est violoniste
+7) Franck est guitariste

@@ -1,0 +1,9 @@
+package fr.gtm;
+
+public class MainVelo {
+
+	public static void main(String[] args) {
+		VeloEnfant velo1 = new VeloEnfant();
+	}
+
+}

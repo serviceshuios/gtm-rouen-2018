@@ -1,0 +1,26 @@
+package fr.gtm.feu;
+
+public class FeuCirculationMain {
+
+	public static void main(String[] args) {
+		Vehicule voiture1 = new Voiture();
+		voiture1.setMarque("Honda");
+		Vehicule voiture2 = new Voiture();
+		voiture2.setMarque("Suzuki");
+		Vehicule velo = new Velo();
+		velo.setMarque("B'twin");
+		Vehicule moto = new Moto();
+		moto.setMarque("BMW");
+		
+		FeuCirculation feu = new FeuCirculation();
+		feu.add(moto);
+		feu.add(velo);
+		feu.add(voiture2);
+		feu.add(voiture1);
+		
+		feu.passerAuVert();
+		
+
+	}
+
+}

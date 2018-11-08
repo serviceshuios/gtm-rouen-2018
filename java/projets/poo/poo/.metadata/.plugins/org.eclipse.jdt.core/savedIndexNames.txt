@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\formationJava\projects\poo\.metadata\.plugins\org.eclipse.jdt.core
+1578809872.index
+512381347.index
+916458454.index

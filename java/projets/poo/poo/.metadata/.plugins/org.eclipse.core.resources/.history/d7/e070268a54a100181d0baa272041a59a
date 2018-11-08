@@ -1,0 +1,7 @@
+package fr.gtm.poo;
+
+public class VeloEnfant extends Bicycle {
+	public void pousser() {
+		System.out.println("on pousse l'enfant sur le vélo");
+	}
+}

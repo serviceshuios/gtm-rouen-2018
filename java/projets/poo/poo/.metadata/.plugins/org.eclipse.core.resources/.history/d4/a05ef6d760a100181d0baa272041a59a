@@ -1,0 +1,12 @@
+package fr.gtm.mammifere;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Zoo {
+	private List<Mammifere> mammiferes = new ArrayList<>();
+	
+	public void add(Mammifere mammifere) {
+		mammiferes.add(mammifere);
+	}
+}

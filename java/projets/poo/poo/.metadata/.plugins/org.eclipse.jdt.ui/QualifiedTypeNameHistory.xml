@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="fr.gtm.poo.VeloEnfant"/>
+<fullyQualifiedTypeName name="fr.gtm.poo.Bicycle"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="fr.gtm.poo.ToutTerrain"/>
+<fullyQualifiedTypeName name="fr.gtm.mammifere.Mammifere"/>
+<fullyQualifiedTypeName name="fr.gtm.mammifere.Zoo"/>
+<fullyQualifiedTypeName name="fr.gtm.mammifere.Chat"/>
+<fullyQualifiedTypeName name="fr.gtm.mammifere.Elephant"/>
+<fullyQualifiedTypeName name="fr.gtm.feu.Voiture"/>
+<fullyQualifiedTypeName name="fr.gtm.feu.Velo"/>
+<fullyQualifiedTypeName name="fr.gtm.feu.Vehicule"/>
+<fullyQualifiedTypeName name="fr.gtm.feu.Moto"/>
+<fullyQualifiedTypeName name="fr.gtm.feu.FeuCirculation"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="fr.gtm.carnet.CarnetContacts"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="fr.gtm.carnet.Contact"/>
+</qualifiedTypeNameHistroy>

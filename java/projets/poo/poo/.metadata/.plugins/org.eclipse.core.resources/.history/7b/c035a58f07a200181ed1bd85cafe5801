@@ -1,0 +1,42 @@
+package fr.gtm.carnet;
+
+import java.util.List;
+
+public class CarnetContactsMain {
+
+	public static void main(String[] args) {
+		// instanciation de Contacts en fournissant civilite, nom, prenom
+		Contact c1 = new Contact("M", "NAUDIN", "Fernand");
+		Contact c2 = new Contact("Mme", "MICHALON", "Eglantine");
+		Contact c3 = new Contact("Mme", "KANE", "Kathy");
+		Contact c4 = new Contact("M", "NAPIER", "Jack");
+		
+		// association à chaque contact une nouvelle adresse
+		c1.setAdresse(new Adresse("rue de Paris","Nice"));
+		c2.setAdresse(new Adresse("rue de Rennes","Marseille"));
+		c3.setAdresse(new Adresse("First Street","Gotham"));
+		c4.setAdresse(new Adresse("Wall Street","Gotham"));
+		
+		// instanciation de Contact en fournissant civilite, nom, prenom, Adresse
+		Contact c5 = new Contact("M","LAGAFFE","Gaston",new Adresse("rue de Marseile","RENNES"));
+		
+		CarnetContacts carnet = new CarnetContacts();
+		carnet.add(c1);
+		carnet.add(c2);
+		carnet.add(c3);
+		carnet.add(c4);
+		carnet.add(c5);
+		
+		List<Contact> contacts = carnet.getAllContacts();
+		//show(contacts);
+
+	}
+
+	private static void show(List<Contact> contacts) {
+		for(Contact c : contacts) {
+			System.out.println(c);
+		}
+		
+	}
+
+}

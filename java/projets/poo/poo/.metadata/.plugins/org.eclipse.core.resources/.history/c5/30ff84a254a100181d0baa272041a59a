@@ -1,0 +1,16 @@
+package fr.gtm.poo;
+
+public class VeloEnfant extends Bicycle {
+	public void pousser() {
+		System.out.println("on pousse l'enfant sur le vélo");
+	}
+	
+	@Override
+	public void accelerer(int vitesseMax) {
+		if(vitesseMax>5) {
+			System.out.println("Un enfant ne pédale pas assez vite");
+		}
+		super.accelerer(5);
+	}
+
+}

@@ -1,0 +1,12 @@
+package fr.gtm.poo;
+
+/**
+ * Modélisation d'une roue
+ * @author Adminl
+ *
+ */
+public class Roue {
+	private double rayon;
+	private double epaisseur;
+	
+}

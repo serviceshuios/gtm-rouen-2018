@@ -1,0 +1,40 @@
+1;Depart;Départ;2000;0;aucune
+2;Rue;Boulevard de Belleville;100;10;violet fonce
+3;Neutre;Caisse de communauté;0;0;aucune
+4;Rue;Rue Lecourbe;100;10;violet fonce
+5;Impots;Impots;500;0;aucune
+6;Gare;Gare Montparnasse;500;50;aucune
+7;Rue;Rue de Vaugirard;100;10;bleu clair
+8;Neutre;Chance;0;0;aucune
+9;Rue;Rue de Courcelles;100;10;bleu clair
+10;Rue;Rue de la République;100;10;bleu clair
+11;Neutre;Visite en Prison;0;0;aucune
+12;Rue;Boulevard de la vilette;100;10;violet clair
+13;Compagnie;Compagnie de distribution d'électricité;250;25;aucune
+14;Rue;Avenue de Neuilly;100;10;violet clair
+15;Rue;Rue de Paradis;100;10;violet clair
+16;Gare;Gare de lyon;500;50;aucune
+17;Rue;Avenue Mozart;100;10;orange
+18;Neutre;Caisse de Communauté;0;0;aucune
+19;Rue;Boulevard Saint-Michel;100;10;orange
+20;Rue;Place Pigalle;100;10;orange
+21;Neutre;Parking;0;0;aucune
+22;Rue;Avenue Matignon;100;10;rouge
+23;Neutre;Chance;0;0;aucune
+24;Rue;Boulevard Malesherbes;100;10;rouge
+25;Rue;Avenue Henri-Martin;100;10;rouge
+26;Gare;Gare du Nord;500;50;aucune
+27;Rue;Faubourg Saint-Honoré;100;10;jaune
+28;Rue;Place de la Bourse;100;10;jaune
+29;Compagnie;Compagnie de Distribution des Eaux;250;25;aucune
+30;Rue;Rue la Fayette;100;10;jaune
+31;Neutre;Prison;0;0;aucune
+32;Rue;Avenue de Breteuil;100;10;vert
+33;Rue;Avenue Foch;100;10;vert
+34;Neutre;Caisse de Communaute;0;0;aucune
+35;Rue;Boulevard des Capucines;100;10;vert
+36;Gare;Gare Saint-Lazare;500;50;aucune
+37;Neutre;chance;0;0;aucune
+38;Rue;Avenue des Champs Elysées;100;10;bleu fonce
+39;TaxeLuxe;Taxe de luxe;500;0;aucune
+40;Rue;Rue de la Paix;100;10;bleu fonce

@@ -1,0 +1,34 @@
+﻿body { background-image: url("img_1559xy.jpg");
+    
+     width: 100%;
+    height:100%;
+    }
+
+
+#header {  width: 100%;
+           height: 100px;
+           font-family: "Verdana";
+           padding: 20px;
+           text-align: center;
+	   font-size: xx-large;
+         
+}
+
+#contenu { height : 400px;
+	   width: 100%;
+}
+
+#ingredients {height: 400px;
+            width: 30%;
+          
+           float: left;
+           font-family: "Arial";
+	   }
+#preparation {   height: 400px;
+                 width: 70%;
+                float: right;
+                font-family: "Arial";         
+	  }
+
+
+

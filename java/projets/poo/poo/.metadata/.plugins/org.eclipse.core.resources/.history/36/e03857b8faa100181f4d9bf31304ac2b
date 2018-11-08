@@ -1,0 +1,11 @@
+package fr.gtm.feu;
+
+public class Velo extends Vehicule {
+
+	@Override
+	public void demarrer() {
+		System.out.format("Le vélo %s démarre\n",getMarque());
+
+	}
+
+}

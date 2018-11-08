@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>inscription</title>
+<link rel="stylesheet" href="css/application.css" />	
+</head>
+<body>
+	<form name="inscription" action="echo.jsp"
+		target="_blank" method="post" id="formulaire">
+		<div>
+			<label for="nom">Nom *</label> <select name="civilite">
+				<option>M</option>
+				<option>Mme</option>
+			</select> <input type="text" name="nom" placeholder="Votre nom" id="nom" /> <span
+				id="error-nom" class="invisible"></span>
+		</div>
+		<div>
+			<label for="prenom">Prénom *</label> <input type="text" name="prenom"
+				placeholder="Votre prénom" id="prenom" /> <span id="error-prenom"
+				class="invisible"></span>
+		</div>
+		<div>
+			<label for="email">Email *</label> <input type="text" name="email"
+				placeholder="Votre email" id="email" /> <span id="error-email"
+				class="invisible"></span>
+		</div>
+		<div>
+			<label for="telephone">Téléphone *</label> <input type="text" name="telephone"
+				placeholder="Votre téléphone" id="telephone" /> <span
+				id="error-tel" class="invisible"></span>
+		</div>
+		<div>
+			<label for="langages" >Langages</label><br>
+			<input type="checkbox" name="langages" value="java">Java<br>
+			<input type="checkbox" name="langages" value="c">C<br>
+			<input type="checkbox" name="langages" value="cpp">C++<br>
+			<input type="checkbox" name="langages" value="lolcode">LOLCODE<br>
+			<input type="checkbox" name="langages" value="whitespace">Whitespace<br>
+		</div>
+		<div>
+			<label for="statut">Statut</label><br>
+			<input type="radio" name="statut" value="salarie">Salarié<br>
+			<input type="radio" name="statut" value="chomeur">Demandeur emploi<br>
+			<input type="radio" name="statut" value="etudiant">Etudiant<br>
+			<input type="radio" name="statut" value="rentier">Rentier<br>
+		</div>
+		<div class="buttons">
+			<input type="submit" value="Envoyer" id="submit" /> <input
+				type="reset" value="Effacer" id="reset">
+		</div>
+	</form>
+</body>
+</html>

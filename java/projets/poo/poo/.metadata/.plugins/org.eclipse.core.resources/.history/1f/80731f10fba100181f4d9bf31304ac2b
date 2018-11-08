@@ -1,0 +1,11 @@
+package fr.gtm.feu;
+
+public class Moto extends Vehicule {
+
+	@Override
+	public void demarrer() {
+		System.out.format("La moto %s démarre\n",this.getMarque());
+
+	}
+
+}

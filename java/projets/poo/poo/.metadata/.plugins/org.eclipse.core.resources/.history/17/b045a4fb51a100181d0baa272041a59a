@@ -1,0 +1,11 @@
+package fr.gtm;
+
+import fr.gtm.poo.VeloEnfant;
+
+public class MainVelo {
+
+	public static void main(String[] args) {
+		VeloEnfant velo1 = new VeloEnfant();
+	}
+
+}

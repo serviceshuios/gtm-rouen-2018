@@ -1,0 +1,12 @@
+package fr.gtm.mammifere;
+
+public class MainMammifere {
+
+	public static void main(String[] args) {
+		Mammifere m = new Chat();
+		m.crier();
+		
+		
+	}
+
+}

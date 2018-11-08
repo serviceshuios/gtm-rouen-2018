@@ -1,0 +1,10 @@
+Créer une application qui crée les binômes pour GTM
+
+en entrée : fichier avec le nom des stagiaires
+            le nombre de module : 9
+
+en sortie : un fichier qui, par module, donne la composition des binômes
+
+1 - trouver les combinaisons possibles de 2 parmis 13
+2 - faire un tirage au sort
+3 - éviter la répétition des binômes d'un module à l'autres  

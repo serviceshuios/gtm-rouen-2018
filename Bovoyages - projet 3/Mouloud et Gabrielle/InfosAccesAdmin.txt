@@ -1,0 +1,4 @@
+Accès back-office : http://localhost:8080/BoVoyages3/BackAllDestinationsServlet
+
+> Le voyage final ne peut pas être sauvegardé en base de données (dates de voyage "detached")
+> Une destination ne peut être supprimée que si les dates de voyages ont toutes été supprimées (soucis de cascade?)

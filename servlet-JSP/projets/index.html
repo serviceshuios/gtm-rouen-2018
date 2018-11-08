@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/application.css"/>
+<title>Bonjour</title>
+</head>
+<body>
+<h2>Vous êtes bien sur le site 'bonjour'</h2>
+<form action="InscriptionServlet" method="get">
+	<select name="civilite" id="civilite">
+		<option value="M" selected="selected">M</option>
+		<option value="MME">Mme</option>
+	</select>
+	<input type="text" name="nom" id="nom" placeholder="Votre nom" required="required"/>
+	<input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required="required"/>
+	<button>OK</button>
+</form>
+<div><a href="BonjourServlet">BonjourServlet</a></div>
+</body>
+</html>
